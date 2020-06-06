@@ -1,0 +1,33 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family:sans-serif;
+}
+body{
+	background:#FDFDFD;
+}
+#text{
+	color:coral;
+	position:absolute;
+	top:50%;
+	-webkit-transform:translate(0,-50%);
+	-moz-transform:translate(0,-50%);
+	-ms-transform:translate(0,-50%);
+	transform:translate(0,-50%);
+	text-align:center;
+	width:100%;
+}
+#title{
+	font-family:monospace;
+	font-size:2.5em;
+	margin-bottom:5px;
+}
+#desc{
+	font-size:1.3em;
+	color:rgba(0,0,0,0.5);
+}
+#title span{
+	color:#444;
+	font-family:inherit;
+}
